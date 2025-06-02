@@ -8,7 +8,7 @@ class ContainerModel {
 
   ContainerModel({required this.letter, required this.color});
 
-  // static علشان نقدر نستخدمها من غير ما نعمل instance
+
   static final List<Color> colors = [
     AppColors.green,
     AppColors.blue,
